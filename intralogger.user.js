@@ -5,8 +5,8 @@
 // @description  Log calls from the intranet!
 // @author       Mikkel Lysholt Robdrup
 // @match        https://intranet.zitcom.dk/*
-// @updateURL   https://github.com/toende/intralogger/raw/test/intralogger.user.js
-// @downloadURL https://github.com/toende/intralogger/raw/test/intralogger.user.js
+// @updateURL   https://github.com/toende/intralogger/raw/master/intralogger.user.js
+// @downloadURL https://github.com/toende/intralogger/raw/master/intralogger.user.js
 // @grant        none
 // ==/UserScript==
 (function() {
