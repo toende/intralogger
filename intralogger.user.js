@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intralogger
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Log calls from the intranet!
 // @author       Mikkel Lysholt Robdrup
 // @match        https://intranet.zitcom.dk/*
