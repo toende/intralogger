@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intralogger
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Log calls from the intranet!
 // @author       Mikkel Lysholt Robdrup
 // @match        https://intranet.zitcom.dk/*
@@ -32,7 +32,7 @@
     formboi.setAttribute("name", "contact-form");
     formboi.setAttribute("target", "hiddenFrame");
 
-    formboi.innerHTML = `<input type="text" class="form-control" id="resellerId" name="resellerId" pattern="(^[A-Za-z]{2}|^[A-Za-z]{3})+[0-9]{1,18}|0" value="0" placeholder="ID (Skriv 0 hvis intet ID)"  style="width: 250px;">
+    formboi.innerHTML = `<input type="text" class="form-control" id="resellerId" name="resellerId" pattern="(^[A-Za-z]{2}|^[A-Za-z]{3})+[0-9]{1,18}|0" placeholder="ID (Skriv 0 hvis intet ID)"  style="width: 250px;">
 <input list="comment_choice" class="form-control" id="user_comment" name="user_comment" placeholder="Kategori" style="width: 250px;" required>
 <datalist id="comment_choice">
 <option value="Odin Migrering - Tekniske problemer">
