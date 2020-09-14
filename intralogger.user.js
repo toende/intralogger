@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intralogger
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  Log calls from the intranet!
 // @author       Mikkel Lysholt Robdrup
 // @match        https://intranet.zitcom.dk/*
@@ -25,7 +25,7 @@
 
     var formboi = document.createElement("form");
     formboi.setAttribute("action", "https://supportmon.zitcom.dk/shkald/include/get_response.php");
-    formboi.setAttribute("onsubmit", 'if(document.getElementById("user_comment").value.includes("Retention")){ window.location.href = "https://teambluegroup-my.sharepoint.com/:x:/g/personal/soeren_kristensen_team_blue/EROixwnSMXxMleePOi4pcJQB3BzpjxL9mXytCps04ciPWg?e=sNQVpI";} else {return false;} this.submit(); this.reset(); return false;');
+    formboi.setAttribute("onsubmit", 'if(document.getElementById("user_comment").value.includes("Retention")){ window.location.href = "https://teambluegroup-my.sharepoint.com/:x:/g/personal/soeren_kristensen_team_blue/EROixwnSMXxMleePOi4pcJQB3BzpjxL9mXytCps04ciPWg?e=sNQVpI";} this.submit(); this.reset(); return false;');
     formboi.setAttribute("id", "contact-form");
     formboi.setAttribute("style", "float: right;");
     formboi.setAttribute("method", "post");
