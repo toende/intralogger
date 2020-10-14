@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intralogger
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @description  Log calls from the intranet!
 // @author       Mikkel Lysholt Robdrup
 // @match        https://intranet.zitcom.dk/*
@@ -218,6 +218,7 @@
 <option value="Viderestilling til Solutions">
 <option value="Viderestilling til Salg">
 <option value="Viderestilling til Shop">
+<option value="Viderestilling til retention">
 <option value="VPN - Generel fejlsøgning">
 <option value="VPN - Mersalg">
 <option value="VPN - Oprettelse af produkt">
